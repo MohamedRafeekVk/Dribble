@@ -137,8 +137,8 @@ body {
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (40).png>)
-![alt text](<Screenshot (41).png>)
+![alt text](<Screenshot (42).png>)
+![alt text](<Screenshot (43).png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
