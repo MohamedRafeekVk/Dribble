@@ -3,69 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Webpage</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <title>Dribbble</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+    <style>
+        body {
+            background-color: #a8acb1;
+        }
+        .navbar {
+            margin-bottom: 30px;
+           
+        }
+        .card img {
+            object-fit: cover;
+            height: 150px;
+            
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            
+        }
+        .card-footer {
+            background-color: transparent;
+        }
+        .footer {
+           color: rgb(255, 255, 255);
+           padding-left:40% ;
+           padding-top:20px ;
+           padding-bottom:20px ;
+           background-color: rgb(0, 0, 0);
+           margin-top: 90px;
+           
+        } 
+        .navbar-brand{
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Dribbble Clone</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#gallery">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
+ 
+    <nav class="navbar navbar-light bg-black shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Dribbble Clone</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
         </div>
     </nav>
-    <section id="about" class="content-section bg-light">
-        <div class="container text-center">
-            <h2>What are you working on?</h2>
-            <p class="lead">Dribbble is show and tell for Designers</p>
-        </div>
-    </section>
-    <section id="gallery" class="content-section">
-        <div class="container">
-            <h2 class="text-center mb-4">BMW M3 COMPETITION</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <img src="bmw1.jpg" class="img-fluid gallery-img" alt="Gallery 1">
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="bmw2.jpg" class="img-fluid gallery-img" alt="Gallery 2">
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="bmw3.jpg" class="img-fluid gallery-img" alt="Gallery 3">
+
+ 
+    <div class="container text-center mb-5">
+        <h1>What are you working on?</h1>
+        <p class="text-muted">Dribbble is show and tell for designers.</p>
+        <button class="btn btn-primary">Sign up</button>
+    </div>
+
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+         
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="1img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Mr.Cashly App</span>
+                        <span class="text-muted">4,044 views</span>
+                    </div>
                 </div>
             </div>
-            <div class="text-center mt-4">
-                <a href="#" class="btn btn-primary">View More</a>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="2img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Holiday Gift Delivery</span>
+                        <span class="text-muted">2,404 views</span>
+                    </div>
+                </div>
             </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="3img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Banking Mobile App</span>
+                        <span class="text-muted">8,909 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="4img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Argus 3D Mobile</span>
+                        <span class="text-muted">4,567 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="5img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Finance App Design</span>
+                        <span class="text-muted">3,908 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="6img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Protectimus Mobile</span>
+                        <span class="text-muted">2,445 views</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="7img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Cryptalize</span>
+                        <span class="text-muted">7,078 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="8img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Ray-Ban</span>
+                        <span class="text-muted">5,860 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="9img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Marketing And Analytics</span>
+                        <span class="text-muted">8,090 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="10img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Try Angle Dashboard</span>
+                        <span class="text-muted">5,908 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="11img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Logofolio</span>
+                        <span class="text-muted">3,096 views</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img src="12img.webp" class="card-img-top" alt="Sample Design">
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span>Web3Developer</span>
+                        <span class="text-muted">2,435 views</span>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
-    <section id="contact" class="content-section bg-light">
-        <div class="container text-center">
-            <h2>Contact Us</h2>
-            <p>Feel free to reach out for inquiries or collaborations!</p>
-            <a href="mailto:info@example.com" class="btn btn-outline-dark">Email Us</a>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container">
-            <p>Designed and Developed by Mohamed Rafeek</p>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+    <footer class="footer">Designed and Developed by Mohamed Rafeek</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
