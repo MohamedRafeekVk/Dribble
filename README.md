@@ -76,7 +76,7 @@ Publish the website in the LocalHost.
  
     <nav class="navbar navbar-light bg-black shadow-sm">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Dribbble Clone</a>
+            <a class="navbar-brand fw-bold" href="#">Dribbble</a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-primary" type="submit">Search</button>
@@ -225,8 +225,8 @@ Publish the website in the LocalHost.
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (44).png>)
-![alt text](<Screenshot (45).png>)
+![alt text](<Screenshot (46).png>)
+![alt text](<Screenshot (47).png>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
